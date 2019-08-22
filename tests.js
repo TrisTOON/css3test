@@ -188,28 +188,28 @@ window.Specs = {
 				":nth-child(n)", ":nth-child(-n)", ":nth-child(0n)",
 				":nth-child(1)", ":nth-child(-1)", ":nth-child(0)",
 				":nth-child(n+1)", ":nth-child(3n+1)", ":nth-child(3n + 1)",
-				":nth-child(-n+1)", ":nth-child(-n-1)", ":nth-child(3n-1)"
+				":nth-child(-n+1)", ":nth-child(3n-1)"
 			],
 			":nth-last-child": [
 				":nth-last-child(even)", ":nth-last-child(odd)",
 				":nth-last-child(n)", ":nth-last-child(-n)", ":nth-last-child(0n)",
 				":nth-last-child(1)", ":nth-last-child(-1)", ":nth-last-child(0)",
 				":nth-last-child(n+1)", ":nth-last-child(3n+1)", ":nth-last-child(3n + 1)",
-				":nth-last-child(-n+1)", ":nth-last-child(-n-1)", ":nth-last-child(3n-1)"
+				":nth-last-child(-n+1)", ":nth-last-child(3n-1)"
 			],
 			":nth-of-type": [
 				":nth-of-type(even)", ":nth-of-type(odd)",
 				":nth-of-type(n)", ":nth-of-type(-n)", ":nth-of-type(0n)",
 				":nth-of-type(1)", ":nth-of-type(-1)", ":nth-of-type(0)",
 				":nth-of-type(n+1)", ":nth-of-type(3n+1)", ":nth-of-type(3n + 1)",
-				":nth-of-type(-n+1)", ":nth-of-type(-n-1)", ":nth-of-type(3n-1)"
+				":nth-of-type(-n+1)", ":nth-of-type(3n-1)"
 			],
 			":nth-last-of-type": [
 				":nth-last-of-type(even)", ":nth-last-of-type(odd)",
 				":nth-last-of-type(n)", ":nth-last-of-type(-n)", ":nth-last-of-type(0n)",
 				":nth-last-of-type(1)", ":nth-last-of-type(-1)", ":nth-last-of-type(0)",
 				":nth-last-of-type(n+1)", ":nth-last-of-type(3n+1)", ":nth-last-of-type(3n + 1)",
-				":nth-last-of-type(-n+1)", ":nth-last-of-type(-n-1)", ":nth-last-of-type(3n-1)"
+				":nth-last-of-type(-n+1)", ":nth-last-of-type(3n-1)"
 			],
 			":last-child": ":last-child",
 			":only-child": ":only-child",
@@ -262,14 +262,14 @@ window.Specs = {
 				":nth-col(n)", ":nth-col(-n)", ":nth-col(0n)",
 				":nth-col(1)", ":nth-col(-1)", ":nth-col(0)",
 				":nth-col(n+1)", ":nth-col(3n+1)", ":nth-col(3n + 1)",
-				":nth-col(-n+1)", ":nth-col(-n-1)", ":nth-col(3n-1)"
+				":nth-col(-n+1)", ":nth-col(3n-1)"
 			],
 			":nth-last-col()": [
 				":nth-last-col(even)", ":nth-last-col(odd)",
 				":nth-last-col(n)", ":nth-last-col(-n)", ":nth-last-col(0n)",
 				":nth-last-col(1)", ":nth-last-col(-1)", ":nth-last-col(0)",
 				":nth-last-col(n+1)", ":nth-last-col(3n+1)", ":nth-last-col(3n + 1)",
-				":nth-last-col(-n+1)", ":nth-last-col(-n-1)", ":nth-last-col(3n-1)"
+				":nth-last-col(-n+1)", ":nth-last-col(3n-1)"
 			],
 			"[att^=val i]": ["[att^=val i]", "[att^=\"val\" i]", "[att^=val I]", "[att^=\"val\" I]"],
 			"[att*=val i]": ["[att*=val i]", "[att*=\"val\" i]", "[att*=val I]", "[att*=\"val\" I]"],
